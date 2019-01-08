@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  MyMfcCef.cpp
+d:\cef\test\mymfccef_github\mymfccef\MyMfcCefDlg.h(40): warning C4141: “virtual”: 使用了多次
+  MyMfcCefDlg.cpp
+d:\cef\test\mymfccef_github\mymfccef\MyMfcCefDlg.h(40): warning C4141: “virtual”: 使用了多次
+  MyWebBrowser.cpp
+  正在生成代码...
+libcef_dll_wrapper.lib(libcef_dll_wrapper.obj) : fatal error LNK1112: 模块计算机类型“x86”与目标计算机类型“x64”冲突

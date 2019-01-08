@@ -3,7 +3,7 @@
 #include "include/cef_client.h"
 #include "include/cef_app.h"
 
-class CWebClient : public CefClient,public CefLifeSpanHandler
+class CWebClient : public CefClient,public CefLifeSpanHandler, public CefBrowserProcessHandler, public CefApp
 {
 public:
 	CWebClient();
@@ -30,6 +30,11 @@ public:
 	//Browser
 	CefRefPtr<CefBrowser> GetBrowser() { return m_cefBrowser; }
 
+	//CefBrowserProcessHandler
+	virtual CefRefPtr<CefBrowserProcessHandler> GetBrowserProcessHandler() override
+	{
+		return this;
+	}
 private:
 	CefRefPtr<CefBrowser> m_cefBrowser;
 	//CefWindowHandle m_BrowserHwnd;

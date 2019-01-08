@@ -33,6 +33,12 @@
     <ClInclude Include="MyWebBrowser.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MyAppRender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyV8HanderEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyMfcCef.cpp">
@@ -45,6 +51,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="MyWebBrowser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAppRender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyV8HanderEx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
